@@ -79,5 +79,5 @@ def confirm_otp():
 
 @app.route('/logout')
 def home():
-    return ''
+    return 'okay testin'
 app.run(debug=True)
