@@ -77,5 +77,7 @@ def confirm_otp():
     else:
         return render_template('confirm_otp.html')
 
-
+@app.route('/logout')
+def home():
+    return ''
 app.run(debug=True)
